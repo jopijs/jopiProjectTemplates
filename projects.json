@@ -1,11 +1,15 @@
 {
   "projects": [
-    {"title": "A minimal template", "template": "minimal"},
     {
-      "title": "ReactJS + Tailwind", "template": "reactjs_tailwind",
+      "title": "A minimal template", "template": "minimal"
+    },
+    {
+      "title": "ReactJS Server Side + Tailwind", "template": "reactServerSide_Tailwind",
+      "hasInstaller": true,
 
       "options": [
-        {"option": "shadcn", "type": "confirm", "title": "Use ShadCN?", "default": true}
+        {"option": "shadcn", "type": "confirm", "title": "Use ShadCN?", "default": true},
+        {"option": "uikit", "type": "confirm", "title": "Use UiKi?", "default": true}
       ]
     }
   ]
