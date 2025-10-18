@@ -1,0 +1,9 @@
+{
+  "projects": [
+    {
+      "title": "Project 1",
+      "dir": "project1",
+      "code": "p1"
+    }
+  ]
+}
