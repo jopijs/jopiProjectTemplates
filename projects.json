@@ -8,8 +8,8 @@
       "hasInstaller": true,
 
       "options": [
-        {"option": "shadcn", "type": "confirm", "title": "Use ShadCN?", "default": true},
-        {"option": "uikit", "type": "confirm", "title": "Use UiKi?", "default": true}
+        {"code": "shadcn", "type": "confirm", "title": "Use ShadCN?", "default": true},
+        {"code": "uikit", "type": "confirm", "title": "Use UiKi?", "default": true}
       ]
     }
   ]
