@@ -12,7 +12,7 @@
 
       "options": [
         {"code": "shadcn", "type": "confirm", "title": "Use ShadCN?", "default": true},
-        {"code": "uikit", "type": "confirm", "title": "Use UiKi?", "default": true}
+        {"code": "uikit", "type": "confirm", "title": "Use UiKit?", "default": true}
       ]
     }
   ]
