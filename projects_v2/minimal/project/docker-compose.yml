@@ -3,7 +3,7 @@ services:
     image: oven/bun
 
     volumes:
-      - ./app:/.
+      - ./:/app
 
     working_dir: /app
 

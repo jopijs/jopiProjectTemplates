@@ -3,3 +3,6 @@ plugins = [
     "bun-plugin-tailwind",
     "jopi-rewrite/bun-server-static"
 ]
+
+[install]
+linker = "hoisted"
