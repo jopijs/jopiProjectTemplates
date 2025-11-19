@@ -1,9 +1,6 @@
 import {UiKitModule, MenuName} from "jopi-rewrite/uikit";
 import {AudioWaveform, Command, Frame, GalleryVerticalEnd, SquareTerminal} from "lucide-react";
 
-// Note: the default class received is "ModuleInitContext"
-// but ui-kit overrides the creation step to provide an instance of UiKitModule.
-//
 export default function(myModule: UiKitModule) {
     const menuManager = myModule.getMenuManager();
 
@@ -22,8 +19,8 @@ export default function(myModule: UiKitModule) {
             key: "Features",
             icon: SquareTerminal,
             items: [
-                {key: "Forms", url: "/features/forms"},
-                {key: "Tests", url: "/features/tests"}
+                {key: "Forms", url: "/forms"},
+                {key: "Tests", url: "/tests"}
             ]
         });
     });
