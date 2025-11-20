@@ -13,10 +13,11 @@
 
     "start": "JOPI_DEV=0 JOPI_DEV_UI=0 bunx jopib src/index.ts",
     "startHMR": "JOPI_DEV=0 JOPI_DEV_UI=1 bunx jopib src/index.ts",
-    "start:node": "JOPI_LOG=0 JOPI_DEV=0 JOPI_DEV_UI=0 npx jopin dist/index.js"
+    "start:node": "JOPI_DEV=0 JOPI_DEV_UI=0 npx jopin dist/index.js"
   },
 
   "devDependencies": {
+    "typescript": "^5.9.3",
     "@types/bun": "^1.3.2",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
