@@ -1,5 +1,5 @@
 [serve.static]
 plugins = [
     "bun-plugin-tailwind",
-    "jopi-rewrite/bun-server-static"
+    "jopijs/bun-server-static"
 ]

@@ -2,6 +2,6 @@
 plugins = [
     # Allow compiling Tailwind.
     "bun-plugin-tailwind",
-    # Add jopi-rewrite requirements.
-    "jopi-rewrite/bun-server-static"
+    # Add jopijs requirements.
+    "jopijs/bun-server-static"
 ]

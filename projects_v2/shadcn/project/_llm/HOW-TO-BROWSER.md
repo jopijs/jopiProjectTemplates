@@ -19,7 +19,7 @@ L'exemple suivant montre comment obtenir des informations à propos du site.
 ```typescript
 //file src/mod_myModule/uiInit.ts
 
-import { UiKitModule } from "jopi-rewrite/uikit";
+import { UiKitModule } from "jopijs/uikit";
 
 export default function(myModule: UiKitModule) {
   // Get the current url.
@@ -42,7 +42,7 @@ L'exemple suivant montre comment exécuter une fonction lorsque l'ensemble des m
 ```typescript
 //file src/mod_myModule/uiInit.ts
 
-import { UiKitModule } from "jopi-rewrite/uikit";
+import { UiKitModule } from "jopijs/uikit";
 import {EventPriority} from "jopi-toolkit/jk_events";
 
 export default function(myModule: UiKitModule) {
@@ -66,8 +66,8 @@ L'exemple suivant montre comment obtenir des informations sur l'utilisateur conn
 Elle montre aussi comment personnaliser le traitement en fonction de ses rôles.
 
 ```typescript
-import { UiKitModule } from "jopi-rewrite/uikit";
-import {UiUserInfos} from "jopi-rewrite/ui";
+import { UiKitModule } from "jopijs/uikit";
+import {UiUserInfos} from "jopijs/ui";
 
 export default function(myModule: UiKitModule) {
   // Get information about the current user.

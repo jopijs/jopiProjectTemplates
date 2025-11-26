@@ -1,4 +1,4 @@
-import {UiKitModule} from "jopi-rewrite/uikit";
+import {UiKitModule} from "jopijs/uikit";
 
 export default function(myModule: UiKitModule) {
 }

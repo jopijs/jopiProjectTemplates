@@ -1,4 +1,4 @@
-import {JopiEasyWebSite} from "jopi-rewrite";
+import {JopiEasyWebSite} from "jopijs";
 
 export default async function(webSite: JopiEasyWebSite) {
 }

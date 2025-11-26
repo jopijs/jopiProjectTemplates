@@ -1,4 +1,4 @@
-import {JopiRequest, type LoginPassword} from "jopi-rewrite";
+import {JopiRequest, type LoginPassword} from "jopijs";
 
 export default async function(req: JopiRequest) {
     const data = await req.getBodyData();

@@ -3,7 +3,7 @@ import {Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPa
 import { Separator } from "@/shared/components/ui/separator";
 import {SidebarInset, SidebarProvider, SidebarTrigger} from "@/shared/components/ui/sidebar";
 import React, {type JSX} from "react";
-import {useMatchingMenuItem, useSendRouterLocationUpdateEvent} from "jopi-rewrite/uikit";
+import {useMatchingMenuItem, useSendRouterLocationUpdateEvent} from "jopijs/uikit";
 
 function MyBreadcrumb() {
     const menuItem = useMatchingMenuItem();

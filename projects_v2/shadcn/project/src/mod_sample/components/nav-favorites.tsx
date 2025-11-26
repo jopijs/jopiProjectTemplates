@@ -23,8 +23,8 @@ import {
   SidebarMenuItem,
   useSidebar,
 } from "@/shared/components/ui/sidebar"
-import {useMenu} from "jopi-rewrite/uikit";
-import {RouterLink} from "jopi-rewrite/uikit";
+import {useMenu} from "jopijs/uikit";
+import {RouterLink} from "jopijs/uikit";
 
 export function NavFavorites() {
   const favorites = useMenu("favorites");

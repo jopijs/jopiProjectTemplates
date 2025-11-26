@@ -56,7 +56,7 @@ serveur web démarre. Son but est de configurer le serveur web.
 ```typescript
 // src/mod_myModule/serverInit.ts
 
-import {JopiEasyWebSite} from "jopi-rewrite";
+import {JopiEasyWebSite} from "jopijs";
 
 export default async function(webSite: JopiEasyWebSite) {
     // Here: code which configure the server.
@@ -71,7 +71,7 @@ navigateur affiche une page du site internet. Son but est de configurer les él�
 ```typescript
 // src/mod_myModule/uiInit.tsx
 
-import {UiKitModule} from "jopi-rewrite/uikit";
+import {UiKitModule} from "jopijs/uikit";
 
 export default function(myModule: UiKitModule) {
   // Here: code loaded inside the navigator.
@@ -188,7 +188,7 @@ Le contrôlleur expose une fonction qui est appellé lors de l'appel HTTP.
 ```typescript
 // src/mod_user/@routes/settings/onPOST.ts
 
-import {JopiRequest} from "jopi-rewrite";
+import {JopiRequest} from "jopijs";
 
 // Respond to : POST /user/settings
 export default async function(req: JopiRequest) {
@@ -308,8 +308,8 @@ Son contenu doit contenir les éléments suivants:
 plugins = [
     # Allow compiling Tailwind.
     "bun-plugin-tailwind",
-    # Add jopi-rewrite requirements.
-    "jopi-rewrite/bun-server-static"
+    # Add jopijs requirements.
+    "jopijs/bun-server-static"
 ]
 ```
 
@@ -342,7 +342,7 @@ Il doit contenir les éléments suivant:
     "@types/react-dom": "^19.1.6"
   },
   "dependencies": {
-    "jopi-rewrite": "latest"
+    "jopijs": "latest"
   },
   "jopi": {
     "webSiteUrl": "http://127.0.0.1:3000"
@@ -366,7 +366,7 @@ Il doit contenir les éléments suivants:
       "declaration": true,
       "preserveSymlinks": true,
   
-      "types": ["jopi-rewrite/types", "@types/bun"],
+      "types": ["jopijs/types", "@types/bun"],
       "baseUrl": ".",
   
       "paths": {"@/*": ["./src/_jopiLinkerGen/*"]},
@@ -412,7 +412,7 @@ Ce fichier est le point d'entrée du programme, celui qui est directement appel�
 Voici un exemple de contenu minimaliste.
 
 ```typescript
-import {jopiApp} from "jopi-rewrite";
+import {jopiApp} from "jopijs";
 
 jopiApp.startApp(import.meta, jopiEasy => {
     jopiEasy.create_creatWebSiteServer();

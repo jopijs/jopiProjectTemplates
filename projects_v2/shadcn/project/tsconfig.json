@@ -24,7 +24,7 @@
     "allowJs": false,
 
     "allowSyntheticDefaultImports": true,
-    "types": ["jopi-rewrite/types", "@types/bun"],
+    "types": ["jopijs/types", "@types/bun"],
 
     "baseUrl": ".",
 

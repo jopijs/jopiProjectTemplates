@@ -1,7 +1,7 @@
 "use client"
 
 import { ChevronRight } from "lucide-react"
-import {MenuName, RouterLink, useMenu} from "jopi-rewrite/uikit";
+import {MenuName, RouterLink, useMenu} from "jopijs/uikit";
 
 import {
   Collapsible,
@@ -18,7 +18,7 @@ import {
   SidebarMenuSubButton,
   SidebarMenuSubItem,
 } from "@/shared/components/ui/sidebar"
-import {type MenuItem} from "jopi-rewrite/uikit";
+import {type MenuItem} from "jopijs/uikit";
 import React from "react";
 
 export function NavMain({onClick}: { onClick?: (subItem: MenuItem, event: React.MouseEvent<HTMLAnchorElement>)=>void}) {

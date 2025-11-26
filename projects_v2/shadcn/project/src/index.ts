@@ -1,4 +1,4 @@
-import {jopiApp} from "jopi-rewrite";
+import {jopiApp} from "jopijs";
 import users from "./myUsers.json";
 
 //TODO: You must change this value with a safe one.

@@ -1,4 +1,4 @@
-import {UiKitModule, MenuName} from "jopi-rewrite/uikit";
+import {UiKitModule, MenuName} from "jopijs/uikit";
 import {AudioWaveform, Command, Frame, GalleryVerticalEnd, SquareTerminal} from "lucide-react";
 
 export default function(myModule: UiKitModule) {

@@ -1,4 +1,4 @@
-import {RouteConfig} from "jopi-rewrite";
+import {RouteConfig} from "jopijs";
 
 export default function(ctx: RouteConfig) {
 }

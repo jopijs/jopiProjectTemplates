@@ -5,7 +5,7 @@
 L'exemple suivant montre comment obtenir certaines informations de base à propos de la requête entrante.
 
 ```typescript
-import {JopiRequest} from "jopi-rewrite";
+import {JopiRequest} from "jopijs";
 
 export default async function (req: JopiRequest): Promise<Response> {
     // Return the requested url as a string.
@@ -56,7 +56,7 @@ export interface ServerSocketAddress {
 L'exemple suivant montre comment créer la réponse renvoyée par notre fonction.
 
 ```typescript
-import {JopiRequest} from "jopi-rewrite";
+import {JopiRequest} from "jopijs";
 
 export default async function(req: JopiRequest): Promise<Response> {
     // If you want to return a response with HTML content (utf8 encoded).
@@ -102,7 +102,7 @@ va retrouver des informations sur l'utilisateur réalisant la requête.
 L'exemple suivant montre comment obtenir des informations sur cet utilisateur.
 
 ```typescript
-import { JopiRequest, UserInfos } from "jopi-rewrite";
+import { JopiRequest, UserInfos } from "jopijs";
 
 export default async function (req: JopiRequest): Promise<Response> {
     // Get information about the user calling our server.

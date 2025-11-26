@@ -1,5 +1,5 @@
 import React from "react";
-import {useRouterNavigate, useRouterSearchParams, Composite, useUserInfos, useLogOutUser, useUserStateRefresh, useFormSubmit} from "jopi-rewrite/uikit";
+import {useRouterNavigate, useRouterSearchParams, Composite, useUserInfos, useLogOutUser, useUserStateRefresh, useFormSubmit} from "jopijs/uikit";
 
 import * as jk_translate from "jopi-toolkit/jk_translate";
 import logo from "./logo.png";
