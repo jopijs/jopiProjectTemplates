@@ -1,4 +1,4 @@
-import AdminPageLayout from "@/uiBlocks/page.layout.admin";
+import AdminPageLayout from "@/uiComponents/page.layout.admin";
 
 export default function Page() {
     return <AdminPageLayout>
