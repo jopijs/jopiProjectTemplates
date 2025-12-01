@@ -1,0 +1,7 @@
+[serve.static]
+plugins = [
+    # Allow compiling Tailwind.
+    "bun-plugin-tailwind",
+    # Add jopijs requirements.
+    "jopijs/bun-server-static"
+]

@@ -13,7 +13,7 @@
 
     "start": "bunx jopib src/index.ts",
     "start:dev": "JOPI_DEV=1 bunx jopib src/index.ts",
-    "start:hmr": "JOPI_DEV_UI=1 bunx jopib src/index.ts",
+    "start:ui": "JOPI_DEV_UI=1 bunx jopib src/index.ts",
     "start:node": "JOPI_DEV=0 JOPI_DEV_UI=0 npx jopin dist/index.js"
   },
 

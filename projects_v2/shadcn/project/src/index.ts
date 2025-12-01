@@ -7,6 +7,6 @@ import users from "./myUsers.json";
 const secretKey = "MY_SUPER_SECRET_KEY";
 
 jopiApp.startApp(import.meta, jopiEasy => {
-    jopiEasy.create_creatWebSiteServer()
+    jopiEasy.create_webSiteServer()
         .fastConfigure_jwtTokenAuth(secretKey, users);
 });

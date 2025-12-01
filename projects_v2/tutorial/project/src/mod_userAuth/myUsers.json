@@ -1,0 +1,31 @@
+[
+  {
+    "login": "johan@mymail.com",
+    "password": "mypassword",
+    "userInfos": {
+      "id": "johan",
+      "fullName": "Johan P",
+      "email": "johan@mymail.com",
+      "roles": ["admin", "writer"]
+    }
+  },
+  {
+    "login": "simple-user@mymail.com",
+    "password": "mypassword",
+    "userInfos": {
+      "id": "simple-user",
+      "fullName": "Simple User",
+      "email":  "simple-user@mymail.com"
+    }
+  },
+  {
+    "login": "the-writer@mymail.com",
+    "password": "mypassword",
+    "userInfos": {
+      "id": "the-writer",
+      "fullName": "Simple User",
+      "email":  "the-writer@mymail.com",
+      "roles": ["writer"]
+    }
+  }
+]
