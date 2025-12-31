@@ -1,7 +1,6 @@
 {
   "projects": [
     {"title": "A minimal template", "template": "minimal"},
-    {"title": "Tutorial", "template": "tutorial"},
     {"title": "Benchmark project", "template": "benchmark"}
   ]
 }
