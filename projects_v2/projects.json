@@ -1,7 +1,12 @@
 {
   "projects": [
-    {"title": "A minimal template", "template": "minimal"},
-    {"title": "Benchmark project", "template": "benchmark"},
-    {"title": "Build with Gemini IA", "template": "gemini-ia"}
+    {
+      "title": "A minimal template",
+      "template": "minimal"
+    },
+    {
+      "title": "Benchmark project",
+      "template": "benchmark"
+    }
   ]
 }
