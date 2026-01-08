@@ -7,6 +7,10 @@
     {
       "title": "Benchmark project",
       "template": "benchmark"
+    },
+    {
+      "title": "Demo: Flore Store",
+      "template": "demo-flore-store"
     }
   ]
 }

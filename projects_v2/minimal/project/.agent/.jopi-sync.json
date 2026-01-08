@@ -1,0 +1,28 @@
+{
+    "sync-dir": [
+        {
+            "path": "/Users/johan/Projets/ws-jopijs-dev/_ia/.agent",
+            "title": "Master: .agent",
+            "isMaster": true
+        },
+        {
+            "path": "/Users/johan/Projets/Sites Ecommerce/JopiFlores/.agent",
+            "title": ".agent"
+        },
+        {
+            "path": "/Users/johan/Projets/ws-jopijs-dev/__tools/jopiProjectTemplates/projects_v2/minimal/project/.agent",
+            "title": ".agent"
+        },
+        {
+            "path": "/Users/johan/Projets/ws-jopijs-dev/__tools/_ia/.agent",
+            "title": ".agent"
+        },
+        {
+            "path": "/Users/johan/Projets/jopi-tests/.agent",
+            "title": ".agent"
+        }
+    ],
+    "errors": [
+        "Master directory not found: /Users/johan/Projets/ws-jopijs-dev/_ia/.agent"
+    ]
+}
