@@ -1,0 +1,40 @@
+{
+  "name": "my-project",
+  "type": "module",
+  
+  "scripts": {    
+    "bunInstall": "bun install && bun install",
+    "nodeInstall": "npm install && npm install",
+
+    "postinstall": "npx jopi mod-check",
+
+    "build": "npx tsc",
+    "watch": "npx tsc --watch",
+    
+    "start": "bun src/index.ts",
+    "start:node": "npx jopin dist/index.js",
+    
+    "start:dev_ui": "JOPI_DEV_UI=1 bun src/index.ts",
+    "start:dev_ui:node": "JOPI_DEV_UI=1 npx jopin dist/index.js",
+
+    "start:dev_server": "JOPI_DEV_SERVER=1 bun src/index.ts",
+    "start:dev_server:node": "JOPI_DEV_SERVER=1 npx jopin dist/index.js",
+    
+    "start:dev_ui:hmr": "JOPI_DEV_HMR=1 bun src/index.ts",
+    
+    "start:prod": "NODE_ENV=production npx tsc && bun dist/index.js",        
+    "start:prod:node": "NODE_ENV=production npx jopin dist/index.js"
+
+  },
+
+  "devDependencies": {
+    "bun": "latest",
+    "typescript": "^5.9.3",
+    
+    "@jopijs/jopimod_uicore": "latest"
+  },
+
+  "dependencies": {
+    "jopijs": "latest"
+  }
+}
